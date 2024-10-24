@@ -5,4 +5,5 @@ module HA(S, Ca, a, b);
  input b;
 xor x1 (S, a, b);
 and a1 (Ca, a, b);
+or(ca,s,a,b);
 endmodule
