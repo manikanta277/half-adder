@@ -4,5 +4,5 @@ module HA(S, Ca, a, b);
  input a;
  input b;
 xor x1 (S, a, b);
-and a1 (Ca, a, b);
-endmodule
+and a1 (Ca, a, b);//and gate
+endmodule 
